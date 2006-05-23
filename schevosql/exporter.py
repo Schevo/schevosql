@@ -7,7 +7,7 @@ __svn__ = "$Id$"
 __rev__ = "$Rev$"[6:-2]
 
 from schevo.constant import UNASSIGNED
-from schevo.sql.field import to_colspec, to_data
+from schevosql.field import to_colspec, to_data
 
 
 class Exporter(object):

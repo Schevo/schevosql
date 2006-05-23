@@ -53,8 +53,6 @@ setup(
 
     package_data=finddata.find_package_data(),
 
-    namespace_packages=['schevo'],
-
     zip_safe=False,
     
     install_requires=[
