@@ -24,7 +24,7 @@ setup(
 
     The latest development version is available in a `Subversion
     repository
-    <svn://orbtech.com/schevo/SchevoSql/trunk#egg=SchevoSql-dev>`__.
+    <http://schevo.org/svn/trunk/Sql#egg=SchevoSql-dev>`__.
     """),
     
     classifiers=[
