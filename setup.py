@@ -28,22 +28,22 @@ setup(
     """),
     
     classifiers=[
-##     'Development Status :: 4 - Beta',
-##     'Environment :: Console',
-##     'Intended Audience :: Developers',
-##     'License :: OSI Approved :: GNU Lesser General Public License (LGPL)',
-##     'Operating System :: OS Independent',
-##     'Programming Language :: Python',
-##     'Topic :: Database :: Database Engines/Servers',
-##     'Topic :: Software Development :: Libraries :: Application Frameworks',
+    'Development Status :: 3 - Alpha',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: GNU Lesser General Public License (LGPL)',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Topic :: Database :: Database Engines/Servers',
+    'Topic :: Software Development :: Libraries :: Application Frameworks',
     ],
     
     keywords='',
     
     author='Orbtech, L.L.C. and contributors',
-    author_email='schevo-devel@lists.orbtech.com',
+    author_email='schevo-devel@lists.schevo.org',
 
-    url='http://schevo.org/SchevoSql/',
+    url='http://schevo.org/trac/wiki/SchevoSqlMain',
     
     license='LGPL',
     
