@@ -18,7 +18,7 @@ setup(
     description="Schevo tools for SQL databases",
     
     long_description=textwrap.dedent("""
-    Provides integration between Schevo_ and SQL databases.
+    Provides export from Schevo_ databases to SQL databases.
 
     .. _Schevo: http://schevo.org/
 
