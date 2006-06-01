@@ -1,7 +1,3 @@
-# If true, then the svn revision won't be used to calculate the
-# revision (set to True for real releases)
-RELEASE = False
-
 __version__ = '1.0a1'
 
 from setuptools import setup, find_packages
@@ -31,7 +27,7 @@ setup(
     'Development Status :: 3 - Alpha',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: GNU Lesser General Public License (LGPL)',
+    'License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Topic :: Database :: Database Engines/Servers',
@@ -56,17 +52,21 @@ setup(
     zip_safe=False,
     
     install_requires=[
-    'Schevo==dev,>=3.0b2dev-r1728',
+    'Schevo >= 3.0b2',
     'RuleDispatch >= 0.5a0dev',
     ],
     
     tests_require=[
-    'nose >= 0.8.7',
+    'nose >= 0.9.0b1',
     ],
     test_suite='nose.collector',
     
     extras_require={
     },
+    
+    dependency_links = [
+    'http://schevo.org/files/thirdparty/',
+    ],
     
     entry_points = """
     """,
