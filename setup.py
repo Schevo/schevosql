@@ -50,6 +50,8 @@ setup(
 
     zip_safe=False,
     
+    always_copy=False,
+    
     install_requires=[
     'Schevo >= 3.0b2',
     'RuleDispatch >= 0.5a0dev',
