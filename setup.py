@@ -38,7 +38,7 @@ setup(
     author='Orbtech, L.L.C. and contributors',
     author_email='schevo-devel@lists.schevo.org',
 
-    url='http://schevo.org/trac/wiki/SchevoSql',
+    url='http://schevo.org/wiki/SchevoSql',
     
     license='LGPL',
     
