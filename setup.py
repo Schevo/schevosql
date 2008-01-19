@@ -17,8 +17,7 @@ setup(
 
     .. _Schevo: http://schevo.org/
 
-    The latest development version is available in a `Subversion
-    repository
+    You can also get the `latest development version
     <http://getschevo.org/hg/repos.cgi/schevosql-dev/archive/tip.tar.gz#egg=SchevoSql-dev>`__.
     """),
 
