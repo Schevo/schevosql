@@ -51,12 +51,13 @@ setup(
     zip_safe=False,
 
     install_requires=[
-    'Schevo >= 3.0b2',
-    'RuleDispatch >= 0.5a0dev',
+    'Schevo >= 3.0',
+    'RuleDispatch == dev, >= 0.5a0dev-r2306',
+    'DecoratorTools',
     ],
 
     tests_require=[
-    'nose >= 0.9.0',
+    'nose >= 0.10.1',
     ],
     test_suite='nose.collector',
 
@@ -64,7 +65,7 @@ setup(
     },
 
     dependency_links = [
-    'http://schevo.org/files/thirdparty/',
+    'http://turbogears.org/download/filelist.html',
     ],
 
     entry_points = """
